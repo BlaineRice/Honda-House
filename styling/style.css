@@ -1,0 +1,86 @@
+body{
+  background-color: #333333;
+  color:black;
+  text-align:center;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: normal;
+  /*same as above*/
+  /*font: normal 16px Arial, Helvetica, sans-serif;*/
+  line-height:1.75em;
+  margin:0;
+}
+
+.box-1 h2{
+  color:white;
+  text-decoration: underline black;
+  text-align:center;
+  font-style: italic;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:white;
+}
+
+
+.box-1{
+  background-color:maroon;
+  color:black;
+  margin:20px;
+  padding:20px 0;
+  border:5px black solid;
+  border-radius: 10px;
+}
+
+
+.box-2 h2{
+  text-decoration: black underline;
+  font-style: italic;
+}
+
+.box-2{
+  border: 5px maroon solid;
+  margin:20px;
+  padding:20px;
+  border-radius:10px;
+  background-color: black;
+  color: white;
+}
+
+.catergories{
+  text-align: left;
+  border:1px #ccc solid;
+  border-radius:15px;
+  margin:20px;
+  text-p
+
+}
+
+.catergories h2{
+  text-decoration:underline;
+}
+
+.catergories ul{
+  padding:3;
+  list-style:none;
+}
+
+.catergories ul{
+  padding-bottom:8px;
+  list-style-image: url("../images/check1.jpg");
+  list-style-position: inside;
+}
