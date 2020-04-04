@@ -1,0 +1,137 @@
+body{
+  background-color: #333333;
+  color:black;
+  text-align:center;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: normal;
+  /*same as above*/
+  /*font: normal 16px Arial, Helvetica, sans-serif;*/
+  line-height:1.75em;
+  margin:0;
+}
+
+h1{
+  font-weight: bold;
+  color:white;
+  text-decoration: underline;
+}
+
+p1{
+  color:white;
+}
+.box-1 h2{
+  color:white;
+  text-align:center;
+  font-style: italic;
+}
+
+
+
+.container{
+  width:100%;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:white;
+}
+
+
+.box-1{
+  background-color:maroon;
+  color:black;
+  margin:20px;
+  padding:20px 0;
+  border:5px black solid;
+  border-radius: 10px;
+}
+
+
+.box-2 h2{
+  text-decoration: black underline;
+  font-style: italic;
+}
+
+.box-2{
+  border: 5px maroon solid;
+  margin:20px;
+  padding:20px;
+  border-radius:10px;
+  background-color: black;
+  color: white;
+}
+
+.catergories{
+  text-align: left;
+  border:1px #ccc solid;
+  border-radius:15px;
+  margin:20px;
+}
+
+.catergories h2{
+  text-decoration:underline;
+}
+
+.catergories ul{
+  padding:3;
+  list-style:none;
+}
+
+.catergories ul{
+  padding-bottom:8px;
+  list-style-image: url("../images/check1.jpg");
+  list-style-position: inside;
+}
+
+.my-form{
+  padding:20px;
+  padding-top:10px;
+}
+
+.my-form .form-group{
+  padding-bottom:15px;
+}
+
+.my-form label{
+  display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  width:50%;
+}
+
+.button{
+  background-color:grey;
+  color:black;
+  padding:10px 15px;
+  border:black solid 2px;
+  border-radius:10px;
+}
+
+.button:hover{
+  background-color:maroon;
+}
+
+.button:active{
+  background-color:white;
+}
+
+.fix-me{
+  position: fixed;
+  top:350px;
+  left:0%;
+}
+
+.fix-me visited {
+  color: blue;
+}
