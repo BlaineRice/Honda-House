@@ -1,0 +1,160 @@
+body{
+  background-color:#f4f4f4;
+  color: #555;
+  font-family: arial;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.button{
+  background-color:#696969;
+  border: black solid 5px;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-shadow:
+}
+
+
+#main-header{
+  background-color: maroon;
+  color:#fff;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#nav-bar{
+  background-color: #333;
+  color: white;
+}
+
+#nav-bar ul{
+  padding:0;
+  list-style:none;
+}
+
+#nav-bar li{
+  display: inline;
+}
+
+#nav-bar a{
+  color:#fff;
+  text-decoration: none;
+  font-size:18px;
+  padding-right:15px;
+}
+
+
+#nav-bar a:hover{
+  text-decoration: underline;
+}
+
+#showcase{
+  background-image:url('../images/typeC.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  min-height:300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase2{
+  background-image:url('../images/agape.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  min-height:300px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #696969;
+}
+
+
+#showcase h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top:30px;
+	text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+#showcase2 h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top:30px;
+	text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+
+
+#main{
+  float: center left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background:#333;
+  color:#fff;
+  padding:10px;
+  box-sizing: border-box;
+  text-align: justify;
+
+}
+
+#main-footer{
+  background: #333;
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media(max-width:600px){
+  #main{
+    width:100%
+    float:none;
+  }
+}
+
+#main-footer a{
+  color:#fff;
+  text-decoration: none;
+  font-size:10px;
+  padding-right:15px;
+}
+
+#main-footer li{
+  font-size:6px;
+  list-style:none;
+}
+
+
+.container h3{
+  text-align: center;
+}
