@@ -13,9 +13,27 @@ body{
   overflow:hidden;
 }
 
+.button{
+  background-color:#696969;
+  border: black solid 5px;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-shadow:
+}
+
+
 #main-header{
   background-color: maroon;
   color:#fff;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 #nav-bar{
@@ -39,9 +57,15 @@ body{
   padding-right:15px;
 }
 
+
+#nav-bar a:hover{
+  text-decoration: underline;
+}
+
 #showcase{
-  background-image:url('../images/typeD.jpg');
+  background-image:url('../images/typeC.jpg');
   background-position:center;
+  background-repeat: no-repeat;
   min-height:300px;
   margin-bottom: 30px;
   text-align: center;
@@ -52,23 +76,29 @@ body{
   font-size: 50px;
   line-height: 1.6em;
   padding-top:30px;
+	text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 #main{
-  float: left;
-  width: 100%;
-  padding: 30px;
-  box-sizing: content-box;
-  display:inline;
-
+  float: center left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  text-align: justify;
 }
 
 #sidebar{
   float:right;
-  width:50%;
+  width:30%;
   background:#333;
   color:#fff;
   padding:10px;
+  box-sizing: border-box;
+  text-align: justify;
 
 }
 
@@ -97,4 +127,9 @@ body{
 #main-footer li{
   font-size:6px;
   list-style:none;
+}
+
+
+.container h3{
+  text-align: center;
 }
