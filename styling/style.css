@@ -28,8 +28,24 @@ padding: 30px;
   width:80%;
   margin:auto;
   overflow:hidden;
+
 }
 
+.container h4{
+  text-align: center;
+  text-decoration: underline;
+}
+
+a, facebook{
+  color: maroon;
+  text-decoration: underline;
+}
+
+img{
+  border-radius: 8px;
+  float: right;
+  
+}
 
 
 /*buttons*/
@@ -57,6 +73,8 @@ padding: 30px;
 
 
 
+
+
 /*header*/
 
 #main-header{
@@ -80,6 +98,8 @@ header .current li{
 #nav-bar{
   background-color: #333;
   color: white;
+  border-bottom: black solid 3px;
+
 }
 
 #nav-bar ul{
@@ -108,7 +128,6 @@ header .current li{
   font-weight: bold;
   text-decoration: underline;
 }
-
 
 
 /*showcases*/
@@ -147,10 +166,18 @@ header .current li{
   background-position:center;
   background-repeat: no-repeat;
   min-height:300px;
-  margin-bottom: 30px;
   text-align: center;
   background-color: #696969;
+  padding-bottom: 0%;
+  border-bottom: black, 5px;
 }
+
+#showcase5{
+  background-image:url('../images/blogimg.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  min-height:300px;
+  text-align: center;}
 
 
 
@@ -202,6 +229,18 @@ header .current li{
 		3px 3px 0 #000;
 }
 
+#showcase5 h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top:30px;
+	text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
 /*main text body*/
 
 #main{
@@ -221,9 +260,15 @@ aside#sidebar{
   text-align: center;
 }
 
-#years{
-  text-align: center;
+aside#sidebar2{
+  float: right;
 }
+
+aside#blog_images{
+  float:right;
+  padding:15px;
+}
+
 
 /*footer*/
 
